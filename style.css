@@ -1,0 +1,21 @@
+.container {
+    display: block;
+    width: 300px;
+}
+
+.container p {
+    width: 100%;
+    border: 2px solid black;
+    border-top: none;
+    margin: auto;
+    padding: 15px 0px 15px 25px;  
+}
+
+.container p:hover {
+    background: coral;
+    cursor: default;
+ }
+
+#ending {
+    border-bottom: none;
+}
